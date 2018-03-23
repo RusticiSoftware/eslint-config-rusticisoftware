@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-rusticisoftware",
+  "version": "1.0.0",
+  "description": "eslint configuration used by Rustici Software (mostly)",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Support <support@rusticisoftware.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=4"
+  }
+}
