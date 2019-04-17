@@ -218,14 +218,26 @@ module.exports = {
         "object-curly-newline": [
             "error",
             {
-                "consistent": true,
-                "minProperties": 2
+                "multiline": true,
+                "consistent": true
             }
         ],
         "object-curly-spacing": "error",
-        "object-property-newline": "error",
+        "object-property-newline": [
+            "error",
+            {
+                "allowAllPropertiesOnSameLine": true
+            }
+        ],
         "object-shorthand": "off",
-        "one-var": "error",
+        "one-var": [
+            "error",
+            {
+                "var": "always",
+                "let": "consecutive",
+                "const": "consecutive"
+            }
+        ],
         "one-var-declaration-per-line": "error",
         "operator-assignment": [
             "error",
