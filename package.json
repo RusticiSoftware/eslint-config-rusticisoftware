@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-rusticisoftware",
-  "version": "2.0.0",
+  "name": "@rusticisoftware/eslint-config",
+  "version": "3.0.0",
   "description": "eslint configuration used by Rustici Software (mostly)",
   "main": "index.js",
   "keywords": [
@@ -10,6 +10,6 @@
   "author": "Support <support@rusticisoftware.com>",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">=5"
+    "eslint": ">=8"
   }
 }
